@@ -2,3 +2,66 @@
     margin: 0px;
     padding: 0px;
 }
+
+/* Shared styles */
+
+.raleway-font {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+}
+.btn-primary {
+    background-color: #4E47FF;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    border: none;
+    padding: 12px 36px;
+    border-radius: 10px;
+    
+}
+
+
+/* Border styies */
+.hero-bg{
+    background-image:url("./image/Hero-bg.png");
+    height:100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 0px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 150px;
+    padding: 50px 0px;
+}
+.logo{
+     font-family: "Inter", sans-serif;
+     font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    font-size: 34px;
+    color: #4E47FF;
+}
+nav ul li{
+    text-decoration: none;
+    list-style: none;
+}
+.hero-content{
+    font-weight: bold;
+    font-size: 65px;
+    color: #252432;
+}
+.hero-section{
+    margin: 309px 276px 236px 276px;
+    text-align: center;
+}
+div button {
+    margin-top: 37px;
+}
