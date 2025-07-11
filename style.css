@@ -8,8 +8,12 @@
 .raleway-font {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
-  /* font-weight: <weight>; */
   font-style: normal;
+}
+.inter-font{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 .btn-primary {
     background-color: #4E47FF;
@@ -40,10 +44,6 @@ nav{
     padding: 50px 0px;
 }
 .logo{
-     font-family: "Inter", sans-serif;
-     font-optical-sizing: auto;
-  /* font-weight: <weight>; */
-    font-style: normal;
     font-weight: 700;
     line-height: 150%;
     font-size: 34px;
@@ -244,4 +244,32 @@ div button {
 .contact-form textarea {
   height: 120px;
   resize: vertical;
+}
+
+/* Footer section */
+.footer-section{
+    padding: 104px 454px;
+    text-align: center;
+}
+.footer-section h1 {
+    font-size: 100px;
+    color: #4E47FF;
+}
+.footer-section p {
+    color: #8987A1;
+}
+.footer-section ul li {
+    list-style: none;
+}
+.footer-section ul li a {
+    text-decoration: none;
+}
+.footer-section ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    margin-top: 20px;
+    color: #8987A1;
+    
 }
