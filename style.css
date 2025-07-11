@@ -32,7 +32,7 @@
 }
 
 
-/* Border styies */
+/* Header styies Start */
 .hero-bg{
     background-image:url("./image/Hero-bg.png");
     height:100vh;
@@ -70,8 +70,10 @@ nav ul li{
 div button {
     margin-top: 37px;
 }
+/* Header styies End */
 
-/* Main styles */
+/* Main styles Start */
+/* About Section */
 .about {
     margin: 116px 160px 116px 140px;
     display: flex;
@@ -94,6 +96,7 @@ div button {
     border-radius: 48px;
 }
 
+/* User Section */
 .user {
     margin: 0 160px 137px 140px;
     background: #A7A5EE;
@@ -128,6 +131,7 @@ div button {
     text-align: center;
 }
 
+/* Comments Section */
 .comments-section {
     margin: 137px 150px;
 }
@@ -184,6 +188,7 @@ div button {
     color: #B3B3B3;
 }
 
+/* Template section */
 .template-section {
     margin: 0 150px 95px;
     padding: 71px 150px;
@@ -209,6 +214,7 @@ div button {
     margin-top: 20px;
 }
 
+/* Contact section */
 .contact-section {
     margin: 92px 150px 14px;
     display: flex;
@@ -250,8 +256,9 @@ div button {
   height: 120px;
   resize: vertical;
 }
+/* Main Styles end */
 
-/* Footer section */
+/* Footer Styles Start*/
 .footer-section{
     padding: 104px 454px;
     text-align: center;
@@ -275,6 +282,6 @@ div button {
     justify-content: center;
     align-items: center;
     gap: 48px;
-    margin-top: 20px;
-    
+    margin-top: 20px;  
 }
+/* Footer Styles End*/
