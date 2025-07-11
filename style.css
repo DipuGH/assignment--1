@@ -203,3 +203,45 @@ div button {
     border-radius: 48px;
     margin-top: 20px;
 }
+
+.contact-section {
+    margin: 92px 150px 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact-section p{
+    font-size: 97px;
+    font-weight: bold;
+    color: #000000; 
+}
+
+.form-container {
+  background-color: white;
+  max-width: 500px;
+  height: 490px;
+  margin: auto;
+  padding: 30px;
+
+}
+.contact-form label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.contact-form textarea {
+  height: 120px;
+  resize: vertical;
+}
