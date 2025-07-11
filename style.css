@@ -91,8 +91,7 @@ div button {
 
 .user {
     margin: 0 160px 137px 140px;
-    background-color: #A7A5EE;
-    /* opacity: 10%; */
+    background: #A7A5EE;
     padding: 50px 142px;
     border-radius: 24px;
     }
@@ -137,10 +136,6 @@ div button {
 .comments-box {
     display: flex;
     justify-content: space-evenly;
-    /* padding: 24px; */
-    /* background: #FFFFFF;
-    border-radius: 8px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) */
     
 }
 .box-size {
@@ -149,7 +144,7 @@ div button {
     padding: 24px;
     background: #FFFFFF;
     border-radius: 8px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15)
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.075)
 }
 .stars i {
   color: gold;
@@ -167,7 +162,6 @@ div button {
 }
 .Reviewer{
     display: flex;
-    /* align-items: center; */
     
 }
 .Reviewer img {
@@ -183,4 +177,29 @@ div button {
 }
 .Reviewer-details p {
     color: #B3B3B3;
+}
+
+.template-section {
+    margin: 0 150px 95px;
+    padding: 71px 150px;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.075)
+}
+.template-section h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: #000000;
+}
+.template-section p {
+    color: #000000;
+    opacity: 50%;
+    margin: 20px 326px -20px;
+}
+.template img{
+    height: 365px;
+    width: 840px;
+    border-radius: 48px;
+    margin-top: 20px;
 }
